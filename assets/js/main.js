@@ -302,10 +302,7 @@ function clearActiveLinks() {
 
 // Clears the active divs
 function clearActiveDivs() {
-	$('.container .content .active').each(function() {
-		$(this).removeClass('active');
-		$(this).hide();
-	});
+    $('.content[id$="Content"]').removeClass('active').hide();
 }
 
 // Activates the link
