@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<!-- Meta tags -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<meta name="description" content="Karan Sharma's website, biography, education, previous experience and published papers."/>
+		<meta name="keywords" content="nicolasmeseguer, NicolasMeseguer, Nicolas Meseguer, nicolas meseguer youtube, nicolas meseguer github, nicolas meseguer murcia, nicolas meseguer cv, nicolas meseguer portfolio"/>
+		
+		<meta name="author" content="Karan Sharma" />
+		<meta name="copyright" content="Work protected by copyright; no distribution without permission." />
+		
+		<!-- Title + Icon -->
+		<title>Dr. Karan Sharma</title>
+		<link rel="icon" type="image/x-icon" href="assets/documents/imgs/NicolasMeseguer.ico">
+
+		<!-- Improve SEO -->
+		<meta name="robots" content="index,follow" />
+
+		<!-- Styles -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+
+	</head>
+
+	<!-- Google tag (gtag.js) & Google Analytics -->
+	<script>
+        fetch('./assets/js/config.json')
+            .then(response => response.json())
+            .then(config => {
+                const scriptTag = document.createElement('script');
+                scriptTag.async = true;
+                scriptTag.src = `https://www.googletagmanager.com/gtag/js?id=${config.googleAnalyticsMeasurementId}`;
+                document.head.appendChild(scriptTag);
+
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', config.googleAnalyticsMeasurementId);
+            })
+            .catch(error => console.error('Error loading the configuration:', error));
+    </script>
+
+	<body>
+
+		<!-- Bottom rounded button -->
+		<div class="options-button" id="options-toggler"><i class="fa-light fa-arrows-repeat"></i></div>
+		<div class="options-button" id="theme"><i class="fa-duotone fa-lightbulb"></i></div>
+		<!--<div class="options-button" id="lan"><img class="lang-flag" src="https://flagcdn.com/w20/us.png" alt="Flag indicating the english language is selected"></div>-->
+
+
+		<!-- Navbar  -->
+		<nav id="top-nav" class="navbar navbar-expand-md navbar-light bg-light flex-md-nowrap flex-wrap">
+			<div class="container justify-content-center">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="collapsingNavbar3">
+					<ul class="navbar-nav mx-auto language" id="navbarList">
+						<li class="nav-item">
+							<a class="nav-link active" id="aboutme" href="#" 
+								data-es="Sobre Mi" 
+								data-en="About Me">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="experience" href="#" 
+								data-en="Experience">
+							</a>
+						</li>						
+						<li class="nav-item">
+							<a class="nav-link" id="education" href="#" 
+								data-en="Education">
+						</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="publications" href="#" 
+								data-en="Publications">
+						</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="conferences" href="#" 
+								data-en="Conferences">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="projects" href="#" 
+								data-en="Research Projects">
+							</a>
+						</li>
+						<!--<li class="nav-item">
+							<a class="nav-link" id="blog" href="#" 
+								data-en="Blog">
+							</a>
+						</li>-->
+						<!--<li class="nav-item">
+							<a class="nav-link" id="academic" href="#"  
+								data-en="Academic">
+							</a>
+						</li>-->
+						<!-- Example using Photos -->
+						<!-- <li class="nav-item">
+							<a class="nav-link" id="photos" href="#" 
+								data-es="Fotos" 
+								data-en="Photos">
+							</a>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container" id="main-content">
+			<div class="row content" id="section-content">
+				
+				<!-- Nicolas Meseguer profile and contact info -->
+				<div id="leftPanel" class="col-md-3 language">
+					<div class="row mb-3">
+						<div class="col">
+							<img src="assets\documents\imgs\karan.jpg" class="rounded me-auto d-block img-fluid profilepicture" alt="Nicolas Meseguer profile picture">
+						</div>
+					</div>
+
+					<h3 class="mb-2">Dr. Karan Sharma</h3>
+
+					<p class="mb-4">
+						<p>
+							Assistant Professor of Political Science, <br>
+							Kirit P Mehta School of Law, <br>
+							Nursee Monjee Institute of Management Studies (NMIMS) University, <br>
+							Ville Parle,<br>  
+							Mumbai: 400058. <br>
+						</p>
+					</p>
+					
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fal fa-map-marker-alt" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<span 
+								data-en="Mumbai, Maharastra, India">
+							</span> 
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="ai ai-cv" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="assets\documents\Academic CV 26052025.pdf" class="link-dark" target="_blank"  data-en="View my CV"></a>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-regular fa-envelope" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="mailto:ks12karansharma@gmail.com" class="link-dark">ks12karansharma@gmail.com</a>
+							<a href="mailto:karan.s@nmims.edu" class="link-dark">karan.s@nmims.edu</a> <br>
+							<a href="mailto:karansharrma96@gmail.com" class="link-dark">karansharrma96@gmail.com</a>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="https://www.linkedin.com/in/karan-sharma-30a623212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="link-dark" target="_blank">LinkedIn</a>
+						</div>
+					</div>
+
+					<!--<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-brands fa-twitter" aria-hidden="true"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="https://twitter.com/NicolasMeseguer" class="link-dark" target="_blank">Twitter</a>
+						</div>
+					</div>-->
+
+					<!--<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-solid fa-plus"></i>
+						</div>
+
+						<div class="col-10">
+							<a href="https://fseneca.es/tfs/fpi/ficha/8362" class="link-dark" target="_blank"><img class="fseneca" src="/assets/documents/imgs/fseneca-color.svg" alt="Fundación Séneca"></a>
+						</div>
+					</div>-->
+				</div>
+
+				<!-- About Me -->
+				<div class="col-md-8 offset-md-1 mb-5 active" id="aboutmeContent">
+					<div class="container">
+						<div class="row language">
+							<p class="mt-2 justify" 
+								data-en="Dr. Karan Sharma is Assistant Professor in Political Science at Kirit P Mehta School of Law, Nursee Monjee Institute of Management Studies (NMIMS), Mumbai. His primary research interests are - Political Theory, Indian Political Thought, Security Studies and Qualitative Methods (Phenomenology). He has completed PhD in Political Science from BITS Pilani (KK Birla Goa Campus) on the topic “Heteronormative Regimes of Morality: A Phenomenological Ethnography of Queer Experiences”.">
+							</p>
+							
+							<h4 id="researchinterestsH4" class="mt-2" 
+								data-en="Research Interests">
+							</h4>
+
+							<p class="mt-1"
+								data-en="Political Science; Political Theory; Western Political Thought (Hobbes-Locke
+Rousseau-Mill-Nietzsche-Foucault); Phenomenological Ethnographic Methods; Queer Studies; 
+Religion and Sexuality. Alternatively: Security Studies; Defense Studies.">
+							</p>
+
+							<h4 id="honors-and-awards" class="mt-2" data-es="Premios y Distinciones" data-en="Honors and Awards"></h4>
+
+							<ul class="mt-1">
+
+								<li class="abme-honors-bullet">
+									<strong>Awarded and Qualified UGC NET JRF in Political Science</strong> 
+									- <span data-en="December, 2019"></span>
+								</li>
+
+								<li class="abme-honors-bullet">
+									<strong>Commenced UGC JRF</strong> 
+									- <span data-en="January, 2020"></span>
+								</li>
+
+								<li class="abme-honors-bullet">
+									<strong>Commenced UGC SRF</strong> 
+									- <span data-en="January, 2022"></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Education -->
+				<div class="col-md-8 offset-md-1 mb-5" id="educationContent">
+					<div class="container">
+						<div class="row mt-2 language">
+							<h2 
+								data-en="Ph.D. in Political Science"></h2>
+							<div class="lucida-console h5">January 2020-February 2025</div>
+							<div class="trnsf-thin" 
+								data-en="Department of Humanities and Social Sciences, BITS-Pilani, KK Birla Goa Campus"></div>
+
+							<div class="trnsf-thin">
+								<span 
+									data-en="Thesis:">
+								</span>
+								<span class="trnsf-italic"
+									data-en="“Heteronormative Regimes of Morality: A Phenomenological Ethnography of Queer Experiences” ">
+								</span>
+							</div>
+
+						</div>
+
+						<div class="row mt-3 language">
+							<h2 
+								data-en="MA Political Science"></h2>
+							<div class="lucida-console h5">July 2017-June 2019</div>
+							<div class="trnsf-thin"
+								data-en="Zakir Husain Delhi College, University of Delhi">
+							</div>
+
+							<!--<p class="mt-1 justify"
+
+								data-en="">
+								
+							</p>-->
+
+						</div>
+
+
+						<div class="row mt-3 language">
+							<h2
+								data-en="BA Political Science Honours">
+							</h2>
+							<div class="lucida-console h5">July 2014-June 2017</div>
+							<div class="trnsf-thin" 
+								data-en="Delhi College of Arts and Commerce, University of Delhi">
+							</div>
+
+							<p class="mt-1 justify"
+								data-en="">
+								
+							</p>
+						</div>
+
+					</div>
+				</div>
+
+
+				<!-- Publications -->
+				<div class="col-md-8 offset-md-1 mb-5" id="publicationsContent">
+					<h1>Published Research Papers</h1>
+					<div class="container">
+						<!-- Each new year -->
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2025</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5">Navigating Queerness and Religion in India: A Phenomenological Queer Ethnography</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma</span></div>
+								<!-- Place -->
+								<div class="pub-congress">Religion, 1–26<br> 
+<a href="https://doi.org/10.1080/0048721X.2025.2472744" target="_blank">https://doi.org/10.1080/0048721X.2025.2472744</a> [Q1, H index = 37]  </div>
+								<!-- Links -->
+								<div class="mt-1">
+									<!--<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Poster.pdf" target="_blank" class="link-dark ">Poster</a> </span> -->
+									<!--<span class="pub-force-margin-left"> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Abstract.pdf" target="_blank" class="link-dark ">Abstract</a> </span>
+									<!-- This <a> with id citation, will automatically copy to the clipboard the bibtex citation -->
+									<!--<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">Cite this article</a> </span>-->
+								</div>
+								<!-- Citation -->
+								<div class="d-none">
+@article{2023cpupcgcn,
+	author = {Meseguer-Iborra, Nicolas and Abellán, José L. and Acacio, Manuel E.},
+	year = {2023},
+	month = {July},
+	title = {CPU-PCGCN: Efficient Processing of Convolutional Graph Networks on CPU Architectures},
+	journal = {Advanced Computer Architecture and Compilation for High-performance Embedded Systems},
+	volume = {19},
+	pages = {5--8},
+	isbn = {978-90-7842-704-9}
+}</div>
+							</div>
+						</div>
+
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2024</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5">‘I Thought They Would at Least Love Me’: The Gay 
+Experiences of Heteronormative  Regimentation in Indian Families, a Phenomenological Ethnography</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma</span></div>
+								<!-- Place -->
+								<div class="pub-congress"> LGBTQ+ Family: An Interdisciplinary  Journal, 20 (2): 122–39 <br> 
+<a href="https://doi.org/10.1080/27703371.2024.2304743" target="_blank">https://doi.org/10.1080/27703371.2024.2304743</a> [Q1, 3.4 IF, H Index = 38]   </div>
+								<!-- Links -->
+								<div class="mt-1">
+									<!--<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Poster.pdf" target="_blank" class="link-dark ">Poster</a> </span> -->
+									<!--<span class="pub-force-margin-left"> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Abstract.pdf" target="_blank" class="link-dark ">Abstract</a> </span>
+									<!-- This <a> with id citation, will automatically copy to the clipboard the bibtex citation -->
+									<!--<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">Cite this article</a> </span>-->
+								</div>
+								<!-- Citation -->
+								<div class="d-none">
+@article{2023cpupcgcn,
+	author = {Meseguer-Iborra, Nicolas and Abellán, José L. and Acacio, Manuel E.},
+	year = {2023},
+	month = {July},
+	title = {CPU-PCGCN: Efficient Processing of Convolutional Graph Networks on CPU Architectures},
+	journal = {Advanced Computer Architecture and Compilation for High-performance Embedded Systems},
+	volume = {19},
+	pages = {5--8},
+	isbn = {978-90-7842-704-9}
+}</div>
+							</div>
+							
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block" style="margin-top: 32px;">
+								<!-- Title -->
+								<div class="lucida-console h5">An Inquiry into Queer Experiences of Regimes of Morality in  Indian Schools: A Phenomenological 
+Institutional Ethnography</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma and Reena Cheruvalath</span></div>
+								<!-- Place -->
+								<div class="pub-congress"> International Journal of Qualitative Studies in  Education, 38 (6): 840–60<br> 
+<a href="https://doi.org/10.1080/09518398.2024.2416711" target="_blank">https://doi.org/10.1080/09518398.2024.2416711</a> [Q2, H Index = 70] </div>
+								<!-- Links -->
+								<div class="mt-1">
+									<!--<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Poster.pdf" target="_blank" class="link-dark ">Poster</a> </span> -->
+									<!--<span class="pub-force-margin-left"> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Abstract.pdf" target="_blank" class="link-dark ">Abstract</a> </span>
+									<!-- This <a> with id citation, will automatically copy to the clipboard the bibtex citation -->
+									<!--<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">Cite this article</a> </span>-->
+								</div>
+								<!-- Citation -->
+								<div class="d-none">
+@article{2023cpupcgcn,
+	author = {Meseguer-Iborra, Nicolas and Abellán, José L. and Acacio, Manuel E.},
+	year = {2023},
+	month = {July},
+	title = {CPU-PCGCN: Efficient Processing of Convolutional Graph Networks on CPU Architectures},
+	journal = {Advanced Computer Architecture and Compilation for High-performance Embedded Systems},
+	volume = {19},
+	pages = {5--8},
+	isbn = {978-90-7842-704-9}
+}</div>
+							</div>
+						</div>
+
+					</div>
+					<br>
+					<h1>Working Papers</h1>
+					<div class="container">
+						<!-- Each new year -->
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2025</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5">Higher Education in India: Beyond Institutes of National Importance</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma and David Kaldeway</span></div>
+								<!-- Place -->
+								<div class="pub-congress"> Forum Internationale Wissenschaft. Working 
+Paper No. 23, Bonn. ISBN 978-3-946306-23-8  <br> 
+<a href="https://hdl.handle.net/20.500.11811/13105" target="_blank">https://hdl.handle.net/20.500.11811/13105</a>  </div>
+								<!-- Links -->
+								<div class="mt-1">
+									<!--<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Poster.pdf" target="_blank" class="link-dark ">Poster</a> </span> -->
+									<!--<span class="pub-force-margin-left"> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Abstract.pdf" target="_blank" class="link-dark ">Abstract</a> </span>
+									<!-- This <a> with id citation, will automatically copy to the clipboard the bibtex citation -->
+									<!--<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">Cite this article</a> </span>-->
+								</div>
+								<!-- Citation -->
+								<div class="d-none">
+@article{2023cpupcgcn,
+	author = {Meseguer-Iborra, Nicolas and Abellán, José L. and Acacio, Manuel E.},
+	year = {2023},
+	month = {July},
+	title = {CPU-PCGCN: Efficient Processing of Convolutional Graph Networks on CPU Architectures},
+	journal = {Advanced Computer Architecture and Compilation for High-performance Embedded Systems},
+	volume = {19},
+	pages = {5--8},
+	isbn = {978-90-7842-704-9}
+}</div>
+							</div>
+						</div>
+					</div>	<br>
+					<h1>Book Chapters</h1>
+					<div class="container">
+						<!-- Each new year -->
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2022</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5">A Diatribe on Morality: Understanding Nietzsche’s Transvaluation of Moral Values</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma</span></div>
+								<!-- Place -->
+								<div class="pub-congress">  In G.  N. Shinde & L. V. P. Rao (Eds.), Ethics 
+and Human Values through Literature (pp. 189–198). Parikalpana: New  Delhi. 
+ISBN: 978-93-95104- 10-4 <br> 
+<a href="https://amzn.in/d/2NdZTEl" target="_blank">https://amzn.in/d/2NdZTEl</a>  </div>
+								<!-- Links -->
+								<div class="mt-1">
+									<!--<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Poster.pdf" target="_blank" class="link-dark ">Poster</a> </span> -->
+									<!--<span class="pub-force-margin-left"> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Abstract.pdf" target="_blank" class="link-dark ">Abstract</a> </span>
+									<!-- This <a> with id citation, will automatically copy to the clipboard the bibtex citation -->
+									<!--<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">Cite this article</a> </span>-->
+								</div>
+								<!-- Citation -->
+								<div class="d-none">
+@article{2023cpupcgcn,
+	author = {Meseguer-Iborra, Nicolas and Abellán, José L. and Acacio, Manuel E.},
+	year = {2023},
+	month = {July},
+	title = {CPU-PCGCN: Efficient Processing of Convolutional Graph Networks on CPU Architectures},
+	journal = {Advanced Computer Architecture and Compilation for High-performance Embedded Systems},
+	volume = {19},
+	pages = {5--8},
+	isbn = {978-90-7842-704-9}
+}</div>
+							</div>
+						</div>
+					</div>	<br>
+
+					<h1>Articles/ OPEDS</h1>
+					<div class="container">
+						<!-- Each new year -->
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">May 24 2024</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5"> Chabahar Port: Why US may ‘Secretly Support’ 
+India-Iran Connectivity Deal despite  threatening sanctions</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma</span></div>
+								<!-- Place -->
+								<div class="pub-congress"> The Eurasian Times <br> 
+<a href="https://www.eurasiantimes.com/chabahar-port-why-us-may-secretly-support-india-ira/?amp" target="_blank">https://www.eurasiantimes.com/chabahar-port-why-us-may-secretly-support-india-ira/?amp</a>  </div>
+								<!-- Links -->
+							</div>
+						</div>
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">May 13 2024</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5"> China Threatens India’s Hold Over Siachen, Kashmir 
+As Beijing ‘Creeps Into’  Shaksgam Valley Using CPEC</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma</span></div>
+								<!-- Place -->
+								<div class="pub-congress"> The Eurasian Times <br> 
+<a href="https://www.eurasiantimes.com/n-china-threatens-indias-hold-over-siachen/" target="_blank">https://www.eurasiantimes.com/n-china-threatens-indias-hold-over-siachen/</a>  </div>
+								<!-- Links -->
+							</div>
+						</div>
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">June 18 2024</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5">The J-20 Challenge: Can India Bridge the Fighter Jet 
+Gap With China?</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma</span></div>
+								<!-- Place -->
+								<div class="pub-congress"> The  Diplomat <br> 
+<a href="https://thediplomat.com/2024/06/the-j-20%20challenge-can-india-bridge-the-fighter-jet-gap-with%20china/" target="_blank">https://thediplomat.com/2024/06/the-j-20%20challenge-can-india-bridge-the-fighter-jet-gap-with%20china/</a>  </div>
+								<!-- Links -->
+							</div>
+						</div>
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">June 17 2024</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5"> India “Bets Big” On Russia Despite US Lure & 
+Chinese Fear; Here Is Why Delhi &  Moscow Remain ‘Trusted Pals’</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma</span></div>
+								<!-- Place -->
+								<div class="pub-congress">  The Eurasian Times <br> 
+<a href="https://www.eurasiantimes.com/with-brics-sco-karan-sharma-unpacking/?amp" target="_blank">https://www.eurasiantimes.com/with-brics-sco-karan-sharma-unpacking/?amp</a>  </div>
+								<!-- Links -->
+							</div>
+						</div>
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">June 9 2025</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5">  “Natural Allies” Against China, Why 
+World’s 2 Largest Democracies, U.S. & India Are No Longer The Best Buddies</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma</span></div>
+								<!-- Place -->
+								<div class="pub-congress">  The Eurasian Times <br> 
+<a href="https://www.eurasiantimes.com/natural-allies-against-china-why-worlds/" target="_blank">https://www.eurasiantimes.com/natural-allies-against-china-why-worlds/</a>  </div>
+								<!-- Links -->
+							</div>
+						</div>
+					</div>					
+				</div>
+
+
+				<!-- Blog -->
+				<div class="col-md-8 offset-md-1 mb-5" id="blogContent">
+					<div class="container">
+
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/StreaMemory-Benchmark-35739f7f69404274a1d287f6827ef203</div>
+							<div class="h5">⛲ StreaMemory Benchmark</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 25 min
+								</div>
+
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 11 feb. 2022
+								</div>
+							</div>
+
+							<div class="blog-short mt-2" 
+								data-es="Explicación del Stream + Memory benchmark en MGPUSim y los archivos que he tenido que modificar para lograrlo."
+								data-en="Explanation of the Stream + Memory benchmark in MGPUSim and the files I had to modify to achieve it.">
+							</div>
+
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#benchmark</span> <span class="tag t-lime">#mgpusim</span> <span class="tag t-purple">#akita</span>
+							</div>
+						</div>
+
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/Elementwise-2D-546f8fe9a8a24852a234bdc28b00cd15</div>
+							<div class="h5">🧊 Elementwise 2D Tensor</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 10 min
+								</div>
+
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 12 dec. 2022
+								</div>
+							</div>
+
+							<div class="blog-short mt-2" 
+								data-es="Explicación de element-wise para un tensor doble (2D) y un caso práctico de porqué no usar tamaños aleatorios para el tamaño de la matriz."
+								data-en="Explanation of element-wise for a double (2D) tensor and a case study of why not to use random sizes for matrix size.">
+							</div>
+
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span>
+							</div>
+						</div>
+
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/Tracing-LDS-Unit-69210a9d8fe44b4a997f8391aa508621</div>
+							<div class="h5">🛤️ Tracing LDS Unit</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 20 min
+								</div>
+
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 30 nov. 2022
+								</div>
+							</div>
+
+							<div class="blog-short mt-2"
+								data-es="¿Alguna vez has querido adjuntar un tracer a un componente específico dentro de MGPUSim? Incluso si ese 'componente' no es un componente como tal, sino un subcomponente de un componente. Este tutorial te será útil."
+								data-en="Have you ever wanted to attach a tracer to a specific component inside MGPUSim? Even if that 'component' is not a component itself but a subcomponent of a component. This tutorial will be helpful.">
+							</div>
+
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#tracing</span>
+							</div>
+						</div>
+
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/DAISEN-Tutorial-9d041575a9b0489099086152fd9a927e</div>
+							<div class="h5">📊 DAISEN Tutorial</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 15 min
+								</div>
+
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 15 nov. 2022
+								</div>
+							</div>
+
+							<div class="blog-short mt-2" 
+								data-es="Breve tutorial sobre la herramienta de visualización DAISEN utilizada para MGPUSim. Este tutorial viene acompañado con un kernel de referencia."
+								data-en="Brief tutorial about the visualization tool DAISEN used for MGPUSim. This tutorial comes along with a kernel example.">
+							</div>
+
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#daisen</span>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<!-- Academic / Teaching -->
+				<div class="col-md-8 offset-md-1 mb-5" id="academicContent">
+					<div class="container">
+
+						<!-- Each new year -->
+						<div class="row mt-2 language">
+							<!-- Year -->
+							<h2 class="academic-year-h2">2024</h2>
+
+							<!-- Each subject -->
+							<div class="academic-block mt-4">
+								<!-- Title -->
+								<div class="lucida-console h5 academic-name"> <span data-en="Multi-core and Purpose-built Architectures" data-es="Arquitecturas Multinúcleo y de Propósito Específico (AMPE)"></span></div>
+								<!-- Subtitle -->
+								<div class="academic-rol mt-1"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
+								<!-- Extra inf -->
+								<div class="academic-year">3.00 ECTS. <span data-en="February 2024 - June 2024" data-es="Febrero 2024 - Junio 2024"></span></div>
+								<!-- Links -->
+								<div class="mt-1"><a href="https://twitter.com/AMPE_UMU" target="_blank" class="link-dark"><i class="fa-brands fa-twitter"></i></a></div>
+							</div>
+						</div>
+
+						<div class="row mt-4 language">
+							<h2 class="academic-year-h2">2023</h2>
+
+							<div class="academic-block">
+								<div class="lucida-console h5 academic-name"> <span data-en="Introduction to Operating Systems" data-es="Introducción a Sistemas Operativos (ISO)"></span></div>
+								<div class="academic-rol mt-1"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
+								<div class="academic-year">3.00 ECTS. <span data-en="September 2023 - January 2024" data-es="Septiembre 2023 - Enero 2024"></span></div>
+							</div>
+
+							<div class="academic-block mt-4">
+								<div class="lucida-console h5 academic-name"> <span data-en="Multi-core and Purpose-built Architectures" data-es="Arquitecturas Multinúcleo y de Propósito Específico (AMPE)"></span></div>
+								<div class="academic-rol mt-1"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
+								<div class="academic-year">3.00 ECTS. <span data-en="February 2023 - June 2023" data-es="Febrero 2023 - Junio 2023"></span></div>
+								<div class="mt-1"><a href="https://twitter.com/AMPE_UMU" target="_blank" class="link-dark"><i class="fa-brands fa-twitter"></i></a></div>
+							</div>
+						</div>
+
+						<div class="row mt-4 language">
+							<h2 class="student-h2" data-es="Alumnos" data-en="Students"></h2>
+
+							<div class="student-block">
+								<div class="student-name"> José Ángel Nicolás Ortega </div>
+								<div class="mt-1 h5 lucida-console"><span data-en="Register Bank Modeling on GPUs with MGPUSim" data-es="Modelado del Banco de Registros en GPUs con MGPUSim"></span></div>
+								<div class="student-mark fireworks">9.9 <span data-es="Sobresaliente - M. Honor" data-en="Outstanding - H.M."></span> </div>
+								<div class="mt-2 student-period"> <span data-en="September 2022 - June 2023" data-es="Septiembre 2022 - Junio 2023"></span> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Conferences -->
+				<div class="col-md-8 offset-md-1 mb-5" id="conferencesContent">
+					<h1>Conferences</h1>
+					<div class="container">
+						<!-- Each new year -->
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2025</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5">Higher Education in India: Scrutinizing Institutes of National 
+Importance</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma</span></div>
+								<!-- Place -->
+								<div class="pub-congress"> Kolloquium, Forum  Internationale Wissenschaft, University of Bonn<br> 
+								(Published as a Working Paper) </div>
+							</div>
+						</div>
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2022</h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5">“A Diatribe on Morality: Understanding Nietzsche’s 
+Transvaluation of Moral Values</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Karan Sharma</span></div>
+								<!-- Place -->
+								<div class="pub-congress"> Ethics and Human  Values Through Literature, an 
+international conference organized by the Yeshwant Mahavidyalaya, Nanded, 
+Maharashtra<br> 
+								(Published as a book chapter) </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Experience -->
+				<div class="col-md-8 offset-md-1" id="experienceContent">
+					<div class="container language">
+						<div class="row mt-2 language">
+							<h2 
+								data-en="Assistant Professor: Political Science"></h2>
+							<div class="lucida-console h5">April 2025 - Present</div>
+							<div class="trnsf-thin" 
+								data-en="KPMSOL, NMIMS University, Mumbai"></div>
+						</div> <br>
+					</div>
+										<div class="container language">
+						<div class="row mt-2 language">
+							<h2 
+								data-en="Guest Faculty: Political Analysis "></h2>
+							<div class="lucida-console h5">February 2025 – March 2025</div>
+							<div class="trnsf-thin" 
+								data-en="TISS Tuljapur, Maharashtra"></div>
+						</div> <br>
+					</div>
+										<div class="container language">
+						<div class="row mt-2 language">
+							<h2 
+								data-en="Visiting Fellow at the Forum Internationale Wissenschaft"></h2>
+							<div class="lucida-console h5">November 2024 – December 2024</div>
+							<div class="trnsf-thin" 
+								data-en="University of Bonn, Germany "></div>
+						</div> <br>
+					</div>
+										<div class="container language">
+						<div class="row mt-2 language">
+							<h2 
+								data-en="Teaching Assistant (TA) at Dept. HSS, BITS-Pilani Goa"></h2>
+							<div class="lucida-console h5">January 2020 – January 2025 </div>
+							<div class="trnsf-thin" 
+								data-en="Dept. HSS, BITS-Pilani Goa"></div>
+							<div class="trnsf-thin" 
+								data-en="Courses: Writing Practice, Dynamics of Social Change, Business Communication, 
+Technical Report Writing, Symbolic Logic. "></div>
+						</div> <br>
+					</div>
+				</div>
+
+				<!-- Projects -->
+				<div class="col-md-8 offset-md-1" id="projectsContent">
+					<h1>Research Projects</h1>
+					<div class="container">
+						<!-- Each new year -->
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">July 2023 – July 2025 </h2>
+
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5">SPARC Project on ‘Public Humanities and Pedagogy in the Global South: Challenges 
+and Directions’ Indo- German  Collaborative Project on Public Humanities</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Collaborators - Prof. Geetha Bakilapadavu, Prof. Reena Cheruvalath, and Dr.  Karan 
+Sharma from BITS- Pilani Goa, India, and Prof. David Kaldewey, University of 
+Bonn, Germany  </span></div>
+								<!-- Place -->
+								<div class="pub-congress"> (Sanctioned Amount: INR 48,94,000) </div>
+							</div>
+						</div>
+				</div>
+
+				<!-- Photos -->
+				<!-- <div class="col-md-8 offset-md-1 mb-5" id="photosContent">
+					<h2 class="section-title language" 
+						data-en="Photos" 
+						data-es="Fotos">
+					</h2>
+					<p class="language" 
+						data-en="Here you can find some of my photos." 
+						data-es="Aquí puedes encontrar algunas de mis fotos.">
+					</p>
+				</div> -->
+
+
+			</div>
+		</div>
+
+
+		<!-- Scripts -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+		<script src="assets/js/languageManager.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+
+</html>
