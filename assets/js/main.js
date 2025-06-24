@@ -284,13 +284,13 @@ $(document).ready(function(){
 
 	
 	// Create the language manager
-	const langManager = new LanguageManager();
-	
-	// Alternates between the different available languages
-	$('#lan').click(function() {
-        const newLang = langManager.getNextLanguage();
-        langManager.setLanguage(newLang);
-    });
+	//const langManager = new LanguageManager();
+	//
+	//// Alternates between the different available languages
+	//$('#lan').click(function() {
+    //    const newLang = langManager.getNextLanguage();
+    //    langManager.setLanguage(newLang);
+    //});
 });
 
 // Clears the active links
